@@ -1,10 +1,7 @@
 
 package com.miportfolio.dto;
 
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter @Setter
 public class MensajeCloudinary {
        
     private String mensajeCloudinary;
@@ -12,8 +9,13 @@ public class MensajeCloudinary {
     public MensajeCloudinary() {
     }
 
-    public MensajeCloudinary(String mensajeColudinary) {
+    public MensajeCloudinary(String mensajeCloudinary) {
         this.mensajeCloudinary = mensajeCloudinary;
     }
-
+    public String getMensajeCloudinary(){
+     return mensajeCloudinary;
+}
+    public void setMensajeCloudinary(String mensajeCloudinary){
+     this.mensajeCloudinary = mensajeCloudinary;   
+       }
 }
