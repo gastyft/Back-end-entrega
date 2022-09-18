@@ -1,10 +1,10 @@
 
 package com.miportfolio.controller;
-/*
+
 import com.miportfolio.model.Imagen;
 import com.miportfolio.service.CloudinaryService;
 import com.miportfolio.service.ImagenService;
-import com.dto.MensajeCloudinary;
+import com.miportfolio.dto.MensajeCloudinary;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.List;
@@ -27,7 +27,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/cloudinary")
-@CrossOrigin
+@CrossOrigin(origins="https://portfolio-yo-programo.web.app")
 
 public class CloudinaryController {
     
